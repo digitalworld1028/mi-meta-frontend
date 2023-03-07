@@ -1,0 +1,16 @@
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+@import "../../styles/_variables.scss";
+.sidebar {
+  background-color: #232325;
+  .nav-link:hover {
+    background-color:#333236;
+  }
+}
+.offcanvas-header {
+  .btn-close {
+    color:white;
+  }
+}

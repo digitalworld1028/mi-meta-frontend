@@ -1,0 +1,122 @@
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+.contact {
+  background-image: url('../../../public/images/contact-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  // height: 270px;
+  padding: 36px 180px;
+
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+  }
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    color: #FFFFFF;
+  }
+  input {
+    background: white !important;
+    padding: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    // color: #7C9CBF;
+    color: white;
+  }
+  input:focus {
+    color: #7C9CBF;
+  }
+  button {
+    background: #0880AE;
+    box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.08), 0px 4px 8px rgba(44, 39, 56, 0.08);
+    border-radius: 6px;
+    padding: 14px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #EBF4F8;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  & > div:nth-child(1) > button {
+    width: 58px !important;
+    height: 58px !important;
+  }
+  &-sign-up {
+    width: 180px;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .contact {
+    padding: 32px;
+    div {
+      padding: 10px !important;
+    }
+    h1, p {
+      padding: 10px;
+    }
+    .join {
+      button {
+        padding: 2px;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  .contact {
+    padding: 32px;
+    div {
+      padding: 10px !important;
+    }
+    h1, p {
+      padding: 10px;
+    }
+    .join {
+      button {
+        padding: 2px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .contact {
+    padding: 32px;
+    div {
+      padding: 10px !important;
+    }
+    h1, p {
+      padding: 10px;
+    }
+    .join {
+      button {
+        padding: 2px;
+      }
+    }
+  }
+}

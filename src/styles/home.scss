@@ -1,0 +1,57 @@
+
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+@import "./_variables.scss";
+.home {
+  .nft-carousel {
+    position: relative;
+    &-bg {
+      background: #EBF4F8;
+      background-image: url('../../public/images/nfts-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+    }
+    &-bg::before{
+      // background-color: rgba(0, 0, 0, 0.37);
+      // content: '';
+      // display: block;
+      // height: 100%;
+      // position: absolute;
+      // width: 100%;
+      // top: 0px;
+      // left: 0px;      
+    }
+    .react-multi-carousel-list {
+      .card {
+        margin: auto;
+      }
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  .home {
+    .nft-carousel {
+      .container-fluid {
+        padding: 10px !important;
+      }
+    }
+  }
+}
+.dark {
+  .nft-carousel {
+    &-bg {
+      background-image: url('../../public/images/nfts-bg-dark.png');
+    }
+    .card {
+      box-shadow: 0px 11px 9px 0px #C209AD4D;
+    }
+  }
+}

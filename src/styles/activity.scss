@@ -1,0 +1,69 @@
+.activity {
+  &-header {
+    h1, p {
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+  &-category {
+    border-bottom: 1px solid #DADADA;
+  }
+  table {
+    color: white;
+    thead {
+      tr {
+        // border-bottom: none;
+        th {
+          border-bottom-width: 0px !important;
+          // border-bottom-width: 1px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 22px;
+          /* identical to box height, or 110% */
+          text-transform: capitalize;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+    td {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      /* identical to box height, or 110% */
+      // padding: 12px;
+      padding: 28px 12px;
+
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    td:nth-child(2) {
+      padding: 12px;
+      text-transform: capitalize;
+    }
+  }
+  .table > :not(caption) > * > * {
+    // border-bottom-width: 0px !important;
+  }
+  .table > :not(:first-child) {
+    border-top: none !important;
+  }
+}
+
+.light {
+  .activity {
+    .dropdown-toggle {
+      background-color:white;
+      border: 1px solid #979797;
+    }
+    .dropdown-comp.show.dropdown button {
+      color:black;
+      background-color: white;
+      border: 1px solid #979797;
+    }
+  }
+}

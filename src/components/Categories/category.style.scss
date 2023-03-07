@@ -1,0 +1,90 @@
+.category-group {
+  width: 100%;
+  padding: 30px;
+}
+.category-item {
+  text-align: center;
+  
+  div {
+    justify-content: center;
+  }
+  .card:hover {
+    margin-top:-3px!important;
+    cursor: pointer;
+  }
+  .card {
+    // width: 300px;
+    height: 360px;
+    border: none;
+    // margin-bottom: 20px;
+    
+    .card-img {
+      border-radius: 24px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      height: 300px;
+    }
+    &-title {
+      font-family: Montserrat;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0px;
+      text-align: left;
+      
+      // position: absolute;
+      // width: 94%;
+      // bottom: 136px;
+    }
+    &-text {
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      
+      // position: absolute;
+      // width: 94%;
+      // bottom: 100px;
+    }
+    .card-img-overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 36px;
+    }
+  } 
+  
+}
+.light {
+  .category-item-icon {
+    svg {
+      fill:black;
+      // stroke:black;
+    }
+    path {
+      // fill:black;
+      // stroke:black;
+    }
+    g {
+      fill:black;
+      // stroke:black;
+    }
+    rect {
+      fill:black;
+      // stroke:black;
+    }
+  }
+}
+
+.dark {
+  .category-group {
+    background: #333236;
+  }
+
+  .category-item-icon {
+
+  }
+}

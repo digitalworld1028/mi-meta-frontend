@@ -1,0 +1,427 @@
+.create {
+  .create-file-select {
+    width:100px;
+  }
+  .create-nft-edit-item {
+    cursor:pointer;
+  }
+  .create-nft-trait {
+    
+  }
+  
+
+  .custom-radio input:checked {
+    border:1px solid #0d6efd;
+    background-color:transparent;
+    filter: brightness(0.6) sepia(1) hue-rotate(180deg) saturate(5);
+  }
+  .custom-radio input {
+    border:1px solid #0d6efd;
+    background-color:transparent;
+    
+  }
+  .create-network {
+    margin-bottom:350px;
+  }
+  .create-type {
+    margin-bottom:350px;
+  }
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    /* identical to box height, or 94% */
+
+
+    color: #FFFFFF;
+
+  }
+  h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+
+    color: #FFFFFF;
+
+  }
+  p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+
+    color: #979797;
+  }
+  textarea {
+    background: #333236;
+    border-radius: 3px;
+    border: none;
+    padding: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #979797;
+  }
+  textarea:focus {
+    background: #333236;
+    color:#979797;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    // border:1px solid #979797;
+  }
+  
+  .input-group {
+    input.form-control {
+      background: #333236;
+      border-radius: 3px;
+      border: none;
+      padding: 16px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+
+      color: #979797;
+    }
+    span.input-group-text {
+      border: none;
+      background: #333236;
+      border-radius: 3px;
+      padding: 16px
+    }
+  }
+  &-network {
+    a {
+      text-decoration: none;
+    }
+    .card {
+      background: #333236;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      // height: auto;
+      height: 270px;
+      // margin-bottom: 12px;
+      &-body {
+        padding: 20px;
+
+        h1 {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 34px;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  &-type {
+      a {
+        text-decoration: none;
+      }
+    .card {
+      background: #333236;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      // height: auto;
+      height: 270px;
+      // margin-bottom: 12px;
+      &-body {
+        padding: 20px;
+
+        h1 {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 34px;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  &-nft {
+    h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 30px;
+      /* identical to box height, or 94% */
+
+
+      color: #FFFFFF;
+
+    }
+    .card {
+      height: auto;
+      padding: 12px;
+      background: #333236;
+      border-radius: 3px;
+      img {
+        filter: drop-shadow(0px 12px 24px rgba(44, 39, 56, 0.02)) drop-shadow(0px 24px 48px rgba(44, 39, 56, 0.04));
+        border-radius: 20px;
+      }
+    }
+    .dropdown-comp {
+      width: 100%;
+      .dropdown-toggle.btn {
+        width: 100%;
+      }
+      .dropdown-menu {
+        width: 100%;
+      }
+    }
+    div.switch {
+      min-height: 24px !important;
+
+      
+      .switch-group {
+        .switch-on {
+          padding: 0px 24px 0px 12px !important;
+        }
+        .switch-off {
+          padding: 0px 24px 0px 18px !important;
+        }
+        .switch-handle {
+          top: -3px;
+          border-radius: 12px;
+        }
+      }
+    }
+    div.switch.off {
+      .switch-handle {
+        left: 12px;
+      }
+    }
+    &-price-type {
+      img {
+        // width: 76px;
+      }
+    }
+    &-erc-1155-logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+      background: linear-gradient(118.01deg, #493795 10.71%, #B52F73 70.29%, #D22438 133.71%);
+    }
+    &-trait {
+      padding-top: 12px;
+      input.form-control {
+        background: #333236;
+        border-radius: 3px;
+        border: none;
+        // padding: 16px;
+        padding: 25px;
+
+        text-align: left !important; 
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #979797;
+      }
+    }
+    textarea {
+      background: #333236;
+      box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+      border-radius: 6px;
+      border: none;
+      padding: 28px 16px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: #979797;
+
+    }
+    &-add-item {
+      & > div:first-child {
+        padding: 12px 32px;
+        background: #333236;
+        box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+        border-radius: 6px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 59px;
+
+        color: #979797;
+
+      }
+      & > div:not(:first-child) {
+        padding: 6px 32px;
+        border: 1px solid #009CDE;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+        border-radius: 6px;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.light {
+  h1, h2, h3, h4, h5, h6 {
+    color:black;
+  }
+  .switch-group {
+    width:158%;
+  }
+  .switch-handle {
+    border:1px solid transparent;
+  }
+}
+
+.modal-content {
+  background-color:#232325;
+}
+.modal-title {
+  color:white;
+}
+.create-nft-modal-close {
+  color:gray;
+}
+.create-nft-modal-close:hover {
+  cursor: pointer;
+}
+.modal-header {
+  border-bottom:1px solid transparent;
+}
+.modal-body {
+  padding-left:2rem;
+  padding-right:2rem;
+  border-bottom:1px solid transparent;
+}
+.modal-footer {
+  justify-content:center;
+  border-top:1px solid transparent;
+}
+.create-nft-modal-btn-save {
+  background-color:#009CDE;
+  color:white;
+  width:120px;
+}
+.create-nft-modal-btn-save:hover {
+  background-color:#01b3ff;
+}
+.create-nft-modal-btn-close {
+  background-color:white;
+  color:gray;
+  width:120px;
+}
+.create-nft-modal-add-button {
+  text-align: left;
+}
+
+.create-nft-modal-add-button:hover {
+  cursor: pointer!important;
+  color:white;
+}
+.create-nft-modal-btn-close:hover {
+  background-color:#dddddd;
+}
+.create-nft-modal-item-row {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  color:gray
+}
+.create-nft-modal-item-content{
+  width:45%;
+  text-align:center;
+}
+.create-nft-modal-input {
+  background-color:#333236;
+  color:#979797;
+  border:1px solid transparent;
+  text-align:center;
+}
+
+.light {
+  .create {
+    .form-control {
+      background-color: white!important;
+      border: 1px solid #979797!important;
+    }
+    .dropdown-toggle {
+      background-color:white;
+      border:1px solid #979797;
+    }
+    .dropdown-comp.show.dropdown button {
+      color:#979797;
+      background-color:white;
+      border: 1px solid #979797;
+    }
+    .dropdown-toggle:hover {
+      color:#979797;
+    }
+    .input-group-text {
+      background-color:white!important;
+      border: 1px solid #979797!important;
+    }
+    .create-nft-edit-item {
+      background-color:white!important;
+      border:1px solid #979797;
+    }
+    .create-nft-edit-item:hover {
+      background-color:#dddddd!important;
+      border:1px solid #979797;
+    }
+    .create-nft .card {
+      background-color:white;
+    }
+    .create-network {
+      .card {
+        background-color:white;
+        border:1px solid #979797;
+        color:black;
+        h1 {
+          color:black;
+        }
+      }
+    }
+    .create-type {
+      .card {
+        background-color:white;
+        border:1px solid #979797;
+        color:black;
+        h1 {
+          color:black;
+        }
+      }
+    }
+  }
+  
+}

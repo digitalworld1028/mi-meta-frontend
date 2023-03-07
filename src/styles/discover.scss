@@ -1,0 +1,18 @@
+.discover {
+  
+  &-landing {
+  position: relative;
+  height: 300px;
+    &-bg {
+      background-image: url('../../public/images/collections-landing-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+    }
+  }
+}

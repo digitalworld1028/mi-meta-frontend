@@ -1,0 +1,53 @@
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+.nft-card {
+  margin: 12px;
+  background: #FFFFFF;
+  // box-shadow: 0px 12px 24px rgba(44, 39, 56, 0.6), 0px 24px 48px rgba(44, 39, 56, 0.12);
+  box-shadow: 0px 12px 24px rgb(37 36 42 / 50%), 0px 24px 48px rgb(32 30 30 / 2%);
+  // border-radius: 24px;
+  // padding: 20px;
+  // box-shadow: 0px 11px 9px 0px #C209AD4D;
+  height:470px;
+  img {
+    // border-radius: 16px;
+  }
+  .card-title {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .heart-icon {
+    path {
+      fill:#DF3468;
+      stroke:#DF3468;
+    }
+    g {
+      fill:#DF3468;
+      stroke:#DF3468;
+    }
+    rect {
+      fill:#DF3468;
+      stroke:#DF3468;
+    }
+  }
+
+}
+
+@include media-breakpoint-down(sm) {
+  .nft-card {
+    .card-body {
+      padding: 0px;
+    }
+  }
+}
+.nft-card:hover {
+  cursor: pointer;
+  margin-top:-3px!important;
+}

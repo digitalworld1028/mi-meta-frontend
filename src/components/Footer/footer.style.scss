@@ -1,0 +1,27 @@
+.footer {
+  background: #2C2738;
+  min-height: 300px;
+  padding: 40px;
+
+  p {
+    text-align: left;
+  }
+  & > div:first-child {
+    // height: 30px;
+  }
+  &-brand {
+    // color: 
+    padding-top: 60px;
+  }
+  &-items {
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    &-items {
+      padding: 20px 50px;
+    }
+  }
+}
